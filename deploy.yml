@@ -1,0 +1,14 @@
+---
+- name: Pull docker image of the Calculator
+  hosts: all
+  tasks:
+    - name: Start docker service
+      service:
+        name: docker
+        state: started
+
+    - name: pull docker image
+      shell: docker pull swaraj1998/calculator_devops
+
+    - name: running container
+      shell: docker run -it -d swaraj1998/calculator_devops
