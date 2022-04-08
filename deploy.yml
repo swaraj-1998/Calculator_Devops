@@ -13,5 +13,3 @@
     - name: running container
       shell: docker run --name calculator -it -d swaraj1998/calculator_devops
 
-    - name: Opening Terminal
-      shell: docker exec -it calculator bash
