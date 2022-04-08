@@ -1,2 +1,2 @@
 [ubuntu]
-172.16.134.180 ansible_user=ubuntu
+172.16.134.180 ansible_user=swaraj
