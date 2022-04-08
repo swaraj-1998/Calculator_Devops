@@ -1,2 +1,1 @@
-[all:vars]
 172.16.134.180 ansible_user=swaraj
