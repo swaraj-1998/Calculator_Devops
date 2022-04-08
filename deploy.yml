@@ -13,6 +13,3 @@
     - name: running container
       shell: docker run --name calculator -it -d swaraj1998/calculator_devops
 
-    - name: Attaching container
-      shell: docker exec -i -t calculator /bin/bash
-
