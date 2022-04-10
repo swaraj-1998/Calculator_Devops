@@ -63,7 +63,7 @@ public class Calculator {
         double num1, num2;
         do {
             System.out.println("Calculator : ");
-            System.out.print("1 : Factorial\n2 : Square Root\n3 : Power\n4 Natural Logarithm\n" +
+            System.out.print("1 : Factorial\n2 : Square Root\n3 : Power\n4 : Natural Logarithm\n" +
                     "5 : Exit\nChoose Your Choice : ");
             int ch;
             try {
