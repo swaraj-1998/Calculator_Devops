@@ -5,6 +5,3 @@
     - name: pull docker image
       shell: docker pull swaraj1998/calculator_devops
 
-    - name: running container
-      shell: docker run --name calculator -it -d swaraj1998/calculator_devops /bin/bash
-
