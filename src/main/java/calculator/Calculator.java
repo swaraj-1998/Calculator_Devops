@@ -23,7 +23,6 @@ public class Calculator {
             }
             switch (ch) {
                 case 1:
-                    // do factorial
                     System.out.print("Enter Number : ");
                     num1 = scanner.nextDouble();
                     System.out.println("Factorial is : " + calc.getFactoral(num1));
@@ -31,7 +30,6 @@ public class Calculator {
 
                     break;
                 case 2:
-                    // find square root
                     System.out.print("Enter a number : ");
                     num1 = scanner.nextDouble();
                     System.out.println("Square root is : " + calc.getSquareRoot(num1));
@@ -40,7 +38,6 @@ public class Calculator {
 
                     break;
                 case 3:
-                    // find power
                     System.out.print("Enter the first number : ");
                     num1 = scanner.nextDouble();
                     System.out.print("Enter the second number : ");
@@ -49,7 +46,6 @@ public class Calculator {
                     System.out.println("\n");
                     break;
                 case 4:
-                    // find natural log
                     System.out.print("Enter a number : ");
                     num1 = scanner.nextDouble();
                     System.out.println("Natural log is :" + calc.getNaturalLog(num1));
