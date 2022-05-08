@@ -1,5 +1,5 @@
 package calculator;
-//Added to check github polling 0
+//Added to check github polling 1
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
